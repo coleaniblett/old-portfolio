@@ -1,0 +1,13 @@
+.main-content {
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.headshot {
+  height: 300px;
+  float: right;
+  margin: 16px;
+  border-radius: 50%;
+}

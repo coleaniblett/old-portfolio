@@ -1,0 +1,11 @@
+footer {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-color: #626365;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

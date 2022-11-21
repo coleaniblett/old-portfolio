@@ -2,5 +2,5 @@
     display: grid;
     grid-template-columns: 48% 48%;
     grid-column-gap: 4%;
-        margin: auto;
+    margin: auto;
 }

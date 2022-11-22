@@ -4,17 +4,17 @@ import './Experience.css';
 class Experience extends React.Component {
   render() {
     return (
-      <div class="main-content">
-        <h2 class="title">
+      <div className="main-content">
+        <h2 className="title">
           Experience
         </h2>
-        <div class="main-grid">
-          <div class="grid-top-left, grid-left">
+        <div className="main-grid">
+          <div className="grid-top-left, grid-left">
             <p>
               4/2018 - 8/2021
             </p>
           </div>
-          <div class="grid-top-right, grid-right">
+          <div className="grid-top-right, grid-right">
             <p>
               3rd Grade Teacher, Challenger School Berryessa - San Jose, CA
             </p>
@@ -24,12 +24,12 @@ class Experience extends React.Component {
               <li>Brought underperforming students up to speed by identifying performance issues and implementing improvement plans tailored to student needs</li>
             </ul>
           </div>
-          <div class="grid-bottom-left, grid-left">
+          <div className="grid-bottom-left, grid-left">
             <p>
               12/2013 - 4/2016
             </p>
           </div>
-          <div class="grid-bottom-right, , grid-right">
+          <div className="grid-bottom-right, , grid-right">
             <p>
               Political Campaign Aide, Multiple Campaigns - San Jose, CA
             </p>

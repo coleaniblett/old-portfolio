@@ -4,17 +4,17 @@ import './Projects.css';
 class Projects extends React.Component {
   render() {
     return (
-      <div class="main-content">
-        <h2 class="title">
+      <div className="main-content">
+        <h2 className="title">
           Projects
         </h2>
-        <div class="main-grid">
-          <div class="grid-top-left, grid-left">
+        <div className="main-grid">
+          <div className="grid-top-left, grid-left">
             <p>
               Katoche (C++)
             </p>
           </div>
-          <div class="grid-top-right">
+          <div className="grid-top-right">
             <ul>
               <li>Text-based adventure game</li>
               <li>Parses user input to determine player intent</li>

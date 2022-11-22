@@ -1,10 +1,14 @@
 import React from 'react';
 import './Navbar.css';
 
+function testFunction() {
+  window.alert("Test");
+}
+
 class Navbar extends React.Component {
   render() {
-      return (
-        <header>
+    return (
+      <header>
         <h1>
           Cole Niblett
         </h1>
@@ -15,7 +19,7 @@ class Navbar extends React.Component {
           <a href="experience.html">Experience</a>
         </nav>
       </header>
-      );
+    );
   }
 }
 

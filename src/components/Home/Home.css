@@ -3,6 +3,7 @@
   margin: auto;
   padding: 10px;
   font-family: 'Roboto Condensed', sans-serif;
+  min-height: 950px;
 }
 
 .headshot {

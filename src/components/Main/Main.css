@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@300&display=swap');
+
+header {
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100%;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 21px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #626365;
+  padding: 20px;
+}
+
+button {
+  all: unset;
+  background-color: #626365;
+  border: none;
+  margin: 20px;
+  color: white;
+}

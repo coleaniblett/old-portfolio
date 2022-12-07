@@ -5,13 +5,15 @@ import Education from '../Education/Education';
 import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Footer from '../Footer/Footer';
+import Main from '../Main/Main';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Main />
+      {/*<Navbar />
       <Home />
-      {/*<Education />
+      <Education />
       <Projects />
       <Experience />*/}
       <Footer />

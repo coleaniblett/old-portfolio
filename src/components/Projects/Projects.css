@@ -1,0 +1,24 @@
+/* opener: set dynamic grid */
+@media (min-width: 700px) {
+  .project-grid {
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: 450px auto;
+  }
+  #katoche {
+    grid-column: 1;
+  }
+  #portfolio {
+    grid-column: 2;
+  }    
+}
+
+.project {
+  padding:10px;
+  min-width: 250px;
+}
+
+.projectImg {
+  max-width:350px;
+  max-height:350px;
+}

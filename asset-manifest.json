@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/coleaniblett.github.io/portfolio/static/css/main.5b42e31b.css",
+    "main.js": "/coleaniblett.github.io/portfolio/static/js/main.eb0364ca.js",
+    "static/js/787.1ed0c42c.chunk.js": "/coleaniblett.github.io/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/PortfolioProjectImg.gif": "/coleaniblett.github.io/portfolio/static/media/PortfolioProjectImg.8cf9844e31da80b52643.gif",
+    "static/media/KatocheProjectImg.gif": "/coleaniblett.github.io/portfolio/static/media/KatocheProjectImg.b2866dfbf0e743446851.gif",
+    "static/media/logo.svg": "/coleaniblett.github.io/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/coleaniblett.github.io/portfolio/index.html",
+    "main.5b42e31b.css.map": "/coleaniblett.github.io/portfolio/static/css/main.5b42e31b.css.map",
+    "main.eb0364ca.js.map": "/coleaniblett.github.io/portfolio/static/js/main.eb0364ca.js.map",
+    "787.1ed0c42c.chunk.js.map": "/coleaniblett.github.io/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b42e31b.css",
+    "static/js/main.eb0364ca.js"
+  ]
+}

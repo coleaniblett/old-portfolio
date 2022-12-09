@@ -4,30 +4,6 @@ import Katoche from '../../KatocheProjectImg.gif';
 import Portfolio from '../../PortfolioProjectImg.gif';
 
 class Projects extends React.Component {
-  /*render() {
-    return (
-      <div className="main-content">
-        <h2 className="title">
-          Projects
-        </h2>
-        <div className="main-grid">
-          <div className="grid-top-left, grid-left">
-            <p>
-              Katoche (C++)
-            </p>
-          </div>
-          <div className="grid-top-right">
-            <ul>
-              <li>Text-based adventure game</li>
-              <li>Parses user input to determine player intent</li>
-              <li>Utilizes OOP principles and design</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    );
-  }*/
-
   render() {
     return (
       <div className="main-content">
@@ -36,8 +12,8 @@ class Projects extends React.Component {
         </h2>
         <div className="project-grid">
           <div className="project" id="katoche">
-            <div className="title">
-              <p>Katoche</p>
+            <div className="projectTitle">
+              <h3>Katoche</h3>
             </div>
             <img class="projectImg" src={Katoche}/>
             <div className="description">
@@ -49,13 +25,14 @@ class Projects extends React.Component {
             </div>
           </div>
           <div className="project" id="portfolio">
-            <div className="title">
-              <p>Portfolio</p>
+            <div className="projectTitle">
+              <h3>Portfolio Site</h3>
             </div>
             <img class="projectImg" src={Portfolio}/>
             <div className="description">
               <ul>
                 <li>Front-end web app built with React</li>
+                <li>Dynamically-designed for cross-platform viewing</li>
               </ul>
             </div>
           </div>

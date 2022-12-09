@@ -4,6 +4,7 @@
     display: grid;
     grid-gap: 10%;
     grid-template-columns: 450px auto;
+    
   }
   #katoche {
     grid-column: 1;
@@ -15,10 +16,25 @@
 
 .project {
   padding:10px;
-  min-width: 250px;
+  min-width: 400px;
 }
 
 .projectImg {
   max-width:350px;
-  max-height:350px;
+  height:250px;
+  transition: transform 0.5s ease-out;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.projectImg:hover {
+  transform: scale(2.0, 2.0);
+}
+
+.projectTitle {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style:italic;
+  background-color: white;
 }

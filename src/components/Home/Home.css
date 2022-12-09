@@ -1,9 +1,15 @@
+@media (min-width: 700px) {
+  .main-content {
+    min-height: 1000px;
+  }
+}
+
 .main-content {
   max-width: 700px;
   margin: auto;
   padding: 10px;
   font-family: 'Roboto Condensed', sans-serif;
-  min-height: 950px;
+  min-height: 1300px;
 }
 
 .headshot {

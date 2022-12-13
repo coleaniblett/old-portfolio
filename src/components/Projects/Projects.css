@@ -12,6 +12,9 @@
   #portfolio {
     grid-column: 2;
   }    
+  .projectImg:hover {
+    transform: scale(2.0, 2.0);
+  }
 }
 
 .project {
@@ -26,10 +29,6 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
-
-.projectImg:hover {
-  transform: scale(2.0, 2.0);
 }
 
 .projectTitle {

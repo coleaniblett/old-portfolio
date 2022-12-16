@@ -6,7 +6,7 @@ const isMobile = /Mobi/.test(navigator.userAgent);
 function App() {
   return (
     <div className="App">
-      {window.alert(`isMobile: ${isMobile}`)}
+      {console.log(`isMobile: ${isMobile}`)}
       <Main />
       <Footer />
     </div>

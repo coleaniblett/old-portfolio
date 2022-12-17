@@ -22,6 +22,8 @@ footer {
 footer span, footer span a {
   margin-left:5px;
   margin-right:5px;
+  text-decoration: none;
+  color: white;
 }
 
 body {

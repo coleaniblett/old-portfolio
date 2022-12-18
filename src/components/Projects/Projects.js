@@ -15,7 +15,7 @@ class Projects extends React.Component {
             <div className="projectTitle">
               <h3>Katoche</h3>
             </div>
-            <img class="projectImg" src={Katoche}/>
+            <a href='https://github.com/coleaniblett/Katoche'><img class="projectImg" src={Katoche}/></a>
             <div className="description">
               <ul>
                 <li>Text-based adventure game built with C++</li>
@@ -28,7 +28,7 @@ class Projects extends React.Component {
             <div className="projectTitle">
               <h3>Portfolio Site</h3>
             </div>
-            <img class="projectImg" src={Portfolio}/>
+            <a href='https://github.com/coleaniblett/portfolio'><img class="projectImg" src={Portfolio}/></a>
             <div className="description">
               <ul>
                 <li>Front-end web app built with React</li>

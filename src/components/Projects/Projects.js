@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css';
 import Katoche from '../../KatocheProjectImg.gif';
 import Portfolio from '../../PortfolioProjectImg.gif';
+import DCRA from '../../DCRAProjectImg.gif';
 
 class Projects extends React.Component {
   render() {
@@ -11,6 +12,18 @@ class Projects extends React.Component {
           Projects
         </h2>
         <div className="project-grid">
+          <div className="project" id="dcra">
+            <div className="projectTitle">
+              <h3>The Distillation-Combination-Recommendation-Application</h3>
+            </div>
+            <a href='https://github.com/coleaniblett/Distillation-Combination-Recommendation-Application'><img class="projectImg" src={DCRA}/></a>
+            <div className="description">
+              <ul>
+                <li>Front-end web app built with React</li>
+                <li>Utilizes TheCocktailDB API for user-customized drink recommendations</li>
+              </ul>
+            </div>
+          </div>
           <div className="project" id="katoche">
             <div className="projectTitle">
               <h3>Katoche</h3>

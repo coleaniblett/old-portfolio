@@ -1,26 +1,24 @@
 import React from 'react';
 import './Navbar.css';
 
-function testFunction() {
-  window.alert("Test");
-}
+export const Navbar = (props) => {
+  const handleClick = (content) => {
+    props.onContentChange(content);
+  }
 
-class Navbar extends React.Component {
-  render() {
-    return (
+  return (
+    <div>
       <header>
         <h1>
           Cole Niblett
         </h1>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="education.html">Education</a>
-          <a href="projects.html">Projects</a>
-          <a href="experience.html">Experience</a>
+          <a onClick={() => handleClick("home")}>Home</a>
+          <a onClick={() => handleClick("education")}>Education</a>
+          <a onClick={() => handleClick("projects")}>Projects</a>
+          <a onClick={() => handleClick("experience")}>Experience</a>
         </nav>
       </header>
-    );
-  }
+    </div>
+  );
 }
-
-export default Navbar;

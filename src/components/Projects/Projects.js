@@ -1,58 +1,28 @@
-import React from 'react';
 import './Projects.css';
-import Katoche from '../../KatocheProjectImg.gif';
-import Portfolio from '../../PortfolioProjectImg.gif';
-import DCRA from '../../DCRAProjectImg.gif';
+import { ProjectData } from '../ProjectData/ProjectData';
 
-class Projects extends React.Component {
-  render() {
-    return (
-      <div className="main-content">
-        <h2 className="title">
-          Projects
-        </h2>
-        <div className="project-grid">
-          <div className="project" id="dcra">
-            <div className="projectTitle">
-              <h3>The Distillation-Combination-Recommendation-Application</h3>
-            </div>
-            <a href='https://github.com/coleaniblett/Distillation-Combination-Recommendation-Application'><img class="projectImg" src={DCRA}/></a>
-            <div className="description">
-              <ul>
-                <li>Front-end web app built with React</li>
-                <li>Utilizes TheCocktailDB API for user-customized drink recommendations</li>
-              </ul>
-            </div>
+export function Projects() {
+  return (
+    <div className="main-content">
+      <h2 className="title">Projects</h2>
+      <div className="row project-grid">
+        {/* Iterate through the array of objects */}
+        {ProjectData.map((project) => (
+          <div className="col-md-6 project" key={project.name}>
+            {/* Display the name and image */}
+            <h2 className="projectTitle">{project.name}</h2>
+            <img src={project.src} alt={project.name} className="projectImg"/>
+
+            {/* Display the bulletpoints */}
+            <ul className="description">
+              {/* Check if each bulletpoint is not null and create a list item if it is not */}
+              {project.bulletpoint1 && <li>{project.bulletpoint1}</li>}
+              {project.bulletpoint2 && <li>{project.bulletpoint2}</li>}
+              {project.bulletpoint3 && <li>{project.bulletpoint3}</li>}
+            </ul>
           </div>
-          <div className="project" id="katoche">
-            <div className="projectTitle">
-              <h3>Katoche</h3>
-            </div>
-            <a href='https://github.com/coleaniblett/Katoche'><img class="projectImg" src={Katoche}/></a>
-            <div className="description">
-              <ul>
-                <li>Text-based adventure game built with C++</li>
-                <li>Parses user input to determine player intent</li>
-                <li>Utilizes OOP principles and design</li>
-              </ul>
-            </div>
-          </div>
-          <div className="project" id="portfolio">
-            <div className="projectTitle">
-              <h3>Portfolio Site</h3>
-            </div>
-            <a href='https://github.com/coleaniblett/portfolio'><img class="projectImg" src={Portfolio}/></a>
-            <div className="description">
-              <ul>
-                <li>Front-end web app built with React</li>
-                <li>Dynamically-designed for cross-platform viewing</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
-    );
-  }
+    </div>
+  );
 }
-
-export default Projects;

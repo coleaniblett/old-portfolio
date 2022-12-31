@@ -15,7 +15,7 @@ export function Projects() {
             <h5 className="projectTitle">
               <strong>{project.name}</strong>
             </h5>
-            <img src={project.src} alt={project.name} className="projectImg"/>
+            <a href={project.href}><img src={project.src} alt={project.name} className="projectImg"/></a>
 
             {/* Display the bulletpoints */}
             <ul className="description">

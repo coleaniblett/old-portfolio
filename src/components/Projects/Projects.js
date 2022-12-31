@@ -4,13 +4,17 @@ import { ProjectData } from '../ProjectData/ProjectData';
 export function Projects() {
   return (
     <div className="main-content">
-      <h2 className="title">Projects</h2>
-      <div className="row project-grid">
+      <h2 className="title">
+        <strong>Projects</strong>
+      </h2>
+      <div className="project-grid">
         {/* Iterate through the array of objects */}
         {ProjectData.map((project) => (
-          <div className="col-md-6 project" key={project.name}>
+          <div className="project" key={project.name}>
             {/* Display the name and image */}
-            <h2 className="projectTitle">{project.name}</h2>
+            <h5 className="projectTitle">
+              <strong>{project.name}</strong>
+            </h5>
             <img src={project.src} alt={project.name} className="projectImg"/>
 
             {/* Display the bulletpoints */}

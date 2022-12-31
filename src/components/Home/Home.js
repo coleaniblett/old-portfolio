@@ -3,9 +3,9 @@ import './Home.css';
 
 export const Home = () => {
   return (
-    <div className="main-content">
+    <div className="main-content" id="home">
       <h2>
-        Welcome
+        <strong>Welcome</strong>
       </h2>
       <p>
         My name's Cole.
@@ -18,7 +18,7 @@ export const Home = () => {
         questions, feel free to email me at <i>coleaniblett@gmail.com</i> or call me at <i>408-603-6257</i>.
       </p>
       <h2>
-        My biography
+        <strong>My biography</strong>
       </h2>
       <img className="headshot" alt="headshot" src="https://cdn.glitch.me/c4c67da8-3df9-4a26-8adc-ee8973edaa41%2F1633501655894.jpg?v=1638766361717"/>
       <p>
@@ -40,7 +40,7 @@ export const Home = () => {
         related to philosophy, spirituality, and futurism.
       </p>
       <h2>
-        My professional values
+        <strong>My professional values</strong>
       </h2>
       <p>
         <i>Teamwork</i> - I learned the value of leveraging diverse professional teams firsthand in 

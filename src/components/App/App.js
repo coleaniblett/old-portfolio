@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { useState } from 'react';
 import { Navbar } from '../Navbar/Navbar';
 import { Home } from '../Home/Home';
@@ -6,8 +8,8 @@ import { Projects } from '../Projects/Projects';
 import { Experience } from '../Experience/Experience';
 import { Footer } from '../Footer/Footer';
 
-const isMobile = /Mobi/.test(navigator.userAgent);
-const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+/*const isMobile = /Mobi/.test(navigator.userAgent);
+const isPortrait = window.matchMedia("(orientation: portrait)").matches;*/
 
 function App() {
   const [content, setContent] = useState("home");
@@ -17,7 +19,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="container-fluid">
       <Navbar onContentChange={handleContentChange} />
       {content === "home" && <Home />}
       {content === "education" && <Education />}

@@ -5,7 +5,7 @@ export function Experience() {
   return (
     <div className="main-content" id="experience">
       <h2 className="title">
-        Experience
+        <strong>Experience</strong>
       </h2>
       <div className="main-grid">
         <div className="grid-top-left, grid-left">

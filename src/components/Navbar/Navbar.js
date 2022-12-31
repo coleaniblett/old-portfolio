@@ -7,16 +7,16 @@ export const Navbar = (props) => {
   }
 
   return (
-    <div>
+    <div className="navbar-fluid">
       <header>
-        <h1>
-          Cole Niblett
+        <h1 className="row">
+          <strong>Cole Niblett</strong>
         </h1>
-        <nav>
-          <a onClick={() => handleClick("home")}>Home</a>
-          <a onClick={() => handleClick("education")}>Education</a>
-          <a onClick={() => handleClick("projects")}>Projects</a>
-          <a onClick={() => handleClick("experience")}>Experience</a>
+        <nav className="row justify-content-center">
+          <a href="#home" className="col-1 text-decoration-none text-white m-2 p-0" onClick={() => handleClick("home")}>Home</a>
+          <a href="#education" className="col-1 text-decoration-none text-white m-2 p-0" onClick={() => handleClick("education")}>Education</a>
+          <a href="#projects" className="col-1 text-decoration-none text-white m-2 p-0" onClick={() => handleClick("projects")}>Projects</a>
+          <a href="#experience" className="col-1 text-decoration-none text-white m-2 p-0" onClick={() => handleClick("experience")}>Experience</a>
         </nav>
       </header>
     </div>

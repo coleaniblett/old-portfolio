@@ -3,9 +3,9 @@ import './Education.css';
 
 export function Education() {
   return (
-    <div className="main-content">
+    <div className="main-content" id="education">
       <h2 className="title">
-        Education
+        <strong>Education</strong>
       </h2>
       <div className="main-grid">
         <div className="grid-top-left, grid-left">

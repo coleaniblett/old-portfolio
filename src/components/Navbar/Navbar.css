@@ -22,4 +22,5 @@ nav {
 a {
   background-color: #626365;
   margin: 20px;
+  min-width: 70px;
 }

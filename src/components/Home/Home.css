@@ -1,6 +1,6 @@
 @media screen and (min-width: 700px) {
   .main-content {
-    min-height: 1000px;
+    min-height: 1100px;
   }
   .headshot {
     height: 300px;
@@ -9,7 +9,7 @@
 }
 @media screen and (max-width: 699px) {
   .main-content {
-    min-height: 1000px;
+    min-height: 1200px;
   }
   .headshot {
     height: 300px;
@@ -19,16 +19,6 @@
 
 @media screen and (max-width: 675px) {
   .main-content {
-    min-height: 1100px;
-  }
-  .headshot {
-    height: 300px;
-    float: right;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .main-content {
     min-height: 1200px;
   }
   .headshot {
@@ -36,7 +26,8 @@
     float: right;
   }
 }
-@media screen and (max-width: 550px) {
+
+@media screen and (max-width: 620px) {
   .main-content {
     min-height: 1300px;
   }
@@ -45,18 +36,27 @@
     float: right;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
   .main-content {
-    min-height: 1350px;
+    min-height: 1400px;
   }
   .headshot {
     height: 300px;
     float: right;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .main-content {
-    min-height: 1475px;
+    min-height: 1500px;
+  }
+  .headshot {
+    height: 300px;
+    float: right;
+  }
+}
+@media screen and (max-width: 460px) {
+  .main-content {
+    min-height: 1600px;
   }
   .headshot {
     height: 300px;
